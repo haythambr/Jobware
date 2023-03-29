@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boundi</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/boundi.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #d4cece;" >
+    <!-- start header  -->
+    <header style="background: #00203f;
+    height: 102px;
+    padding-bottom: 100px;
+" >
+        <div class="container" id="header" >
+            
+            <i class="fa-solid fa-magnifying-glass-dollar">JOBWARE</i> 
+          <nav>
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="all_jobs.html" >All Jobs</a></li>
+                <li><a href="#portfolio" >Portfolio</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#pricing" >Pricing</a></li>
+                <li> <a href="login/login.html" class="button">Log in</a></li>
+            </ul>
+            <div class="form">
+                <i class="fas fa-search"></i>
+            </div>
+          </nav>
+        </div>
+    </header>
+<!-- end header  -->
+<!-- job filter start -->
+<section class="job-filter">
+    <h1 class="main-title">Filter jobs</h1>
+    <form action="" method="post">
+        <div class="flex">
+            <div class="box">
+                <p>job title <span>*</span></p>
+               <input type="text" name="title" placeholder="keyword, category or company" required
+               maxlength="20" class="input"
+               >
+            </div>
+            <div class="box">
+                <p>job location</p>
+                <input type="text" name="location" placeholder="city, state or country" required
+                maxlength="50" class="input"
+                >                
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <input type="text" readonly placeholder="data posted" name="data" class="input" maxlength="20">
+                <div class="lists">
+                    <p class="items">today</p>
+                    <p class="items">2 days ago</p>
+                    <p class="items">5 days ago</p>
+                    <p class="items">10 days ago</p>
+                    <p class="items">20 days ago</p>
+                    <p class="items">30 days ago</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly placeholder="salary" name="data" class="input" maxlength="20">
+                <div class="lists">
+                    <p class="items">450 or less</p>
+                    <p class="items">800 - 1k</p>
+                    <p class="items">1k - 1.5k</p>
+                    <p class="items">2k or more</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly placeholder="job type" name="data" class="input" maxlength="20">
+                <div class="lists">
+                    <p class="items">full-time</p>
+                    <p class="items">part-time</p>
+                    <p class="items">temperary</p>
+                    
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly placeholder="education" name="data" class="input" maxlength="20">
+                <div class="lists">
+                    <p class="items">10th pass</p>
+                    <p class="items">12th pass</p>
+                    <p class="items">bachleor degree</p>
+                    <p class="items">masters degree</p>
+                    <p class="items">diploma</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly placeholder="work shifts" name="data" class="input" maxlength="20">
+                <div class="lists">
+                    <p class="items">day shift</p>
+                    <p class="items">night shift</p>
+                    <p class="items">flexible shift</p>
+                    <p class="items">fixed shift</p>
+                
+                </div>
+            </div>
+
+        </div>
+    </form>
+</section> 
+<!-- job filter end -->
+    <!-- start latest-jobs  -->
+  
+    <div class="latest-job" style="padding-top: 0;">
+        <div class="main-title" style="margin-top:70px;
+        margin-bottom: 29px;
+        ">All job</div>
+        <div class="container">
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+                  <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+               </div>
+              </div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+                <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+                </div></div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+               <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+                </div></div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+               <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+              </div></div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+               <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+              </div></div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+            <div class="box">
+                <div class="card1">
+                <div class="company"><img src="img/html-5.png" alt="">
+               <div class="info">
+                <h3>it info.co</h3>
+                <span>2 days ago</span>
+              </div></div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i>
+            <span>Jordan,Zarqa</span>
+            </p>
+            <div class="tags">
+                <p>
+                    <i class="fa-solid fa-coins"></i>
+                    <span>2k-5k</span>
+                </p>
+                <p><i class="fas fa-briefcase"></i><span>Part-time</span></p>
+                <p><i class="fas fa-clock"></i><span>full-time</span></p>
+            </div>
+            <div class="job-button">
+                <a href="View_job.html" class="button">View Details</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- all jobs end  -->
+
+     <!-- start footer -->
+     <div class="footer">
+        <div class="container">
+            <i class="fa-solid fa-magnifying-glass-dollar logo">JOBWARE</i> 
+            <p>We Are Social</p>
+            <div class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2023 <span>JOBWARE Team</span> All Right Reserved</p>
+        </div>
+       </div>
+     <!-- end footer  -->
+          <!-- start button  -->
+          <div class="up">
+            <a href="#header">up</a>
+         </div>
+    <!-- end footer -->
+    <script>
+        let dropdown_itmes = document.querySelectorAll('.job-filter form .dropdown-container .dropdown .lists .items');
+    dropdown_itmes.forEach(items =>{
+      items.onclick = () =>{
+        items_parent = items.parentElement.parentElement;
+        let input = items_parent.querySelector('.input');
+        input.value = items.innerText;
+      }
+    });
+    </script>
+</body>
+</html>
