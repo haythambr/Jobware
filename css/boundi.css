@@ -166,7 +166,7 @@ header{
     display: block;
     padding: 10px 9px;
     border-radius: 14px;
-    top: 27px;
+    top: 29px;
     background: transparent;
     color: white;
     border: none;
@@ -699,7 +699,7 @@ header{
 
    .job-filter form .flex .box p{
     font-size: 20px;
-    color: #ececec;
+    color: #115d8c;
    }
    .job-filter form .flex .box p span{
     color: red;
