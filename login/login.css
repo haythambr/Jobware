@@ -39,6 +39,7 @@ h2{
     font-size: 32px;
     color: #19c8fa;
     text-align: center;
+    margin-bottom: 20px;
 }
 .inputbox{
     position: relative;
@@ -57,7 +58,7 @@ h2{
     transition: .5s;
 }
 input:focus ~ label,
-input:valid~ label{
+input:valid ~ label{
 top: -5px;
 }
 .inputbox input{

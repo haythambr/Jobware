@@ -261,7 +261,7 @@ header{
     .landing form .loaction{
     margin:17px
     }
-    input[type="text"] {
+    .landing input[type="text"] {
         width: 100%;
         padding: 10px;
         margin-right: 10px;
