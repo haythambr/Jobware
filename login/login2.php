@@ -49,7 +49,7 @@
 		   
 		   $_SESSION['user_id'] = $row['id'];
 		   
-		   header('location:../index.php');
+		   header('location:../index2.php');
 	   } else 
 	   {
 		   $message ='* invalid email or password';

@@ -191,11 +191,11 @@ header{
         border-left: 1px solid white;
     }
     header nav .form i{
-        color:white;
-        position: absolute;
-        top:50%;
-        transform:translatey(-50%);
-        right: 0;
+      color: white;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    right: 0;
     }
     /* end  header  */
     /* start landing  */

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobware</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/boundi.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #d4cece;" >
+    <!-- start header  -->
+    <header style="background: #00203f;
+    position: relative;
+" >
+        <div class="container" id="header" >
+            
+            <i class="fa-solid fa-magnifying-glass-dollar">JOBWARE</i> 
+          <nav>
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="all_jobs.php" >All Jobs</a></li>
+                <li><a href="#portfolio" >Portfolio</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#pricing" >Pricing</a></li>
+                <li> <a href="login/login.php" class="button">Log in</a></li>
+            </ul>
+            <div class="form">
+                <i class="fas fa-search"></i>
+            </div>
+          </nav>
+        </div>
+    </header>
+<!-- end header  -->
+<div class="latest-job" style="padding-top: 0;
+        padding-bottom: var(--section-padding);">
+    <div class="main-title" style="margin-top:70px;
+    margin-bottom: 29px;
+    ">All job</div>
+    <div class="container" style="display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    gap: 24px;">
+        <div class="box" style="     width: fit-content;
+        background-color: #ececec;
+        border-radius: 8px;
+        border: 3px solid #ececec;
+        padding: 32px;
+        box-shadow: 5px 5px 5px #00000052;
+        overflow-x: hidden;">
+            <div class="card1">
+            <div class="company" style="   display: flex;  
+            align-items: center;
+            gap: 22px;
+            margin-bottom: 20px;"><img src="img/html-5.png" alt="" style="  height: 65px;
+        width: 65px;">
+              <div class="info">
+            <h3 style="  font-size: 28px;
+            color: black;">ايميل الي حط الوظيفة</h3>
+           </div>
+          </div>
+        </div>
+        <h3 class="job-title" style="   font-size: 23px;
+        text-transform: uppercase;
+        font-weight: bold;">اسم الوظيفة</h3>
+        <p class="location" style="  padding: 16px 4px;
+        font-size: 18px;
+        color: var(--main-color);"><i class="fas fa-map-marker-alt"></i>
+        <span>العنوان</span>
+        </p>
+        <div class="tags" style=" display: flex;
+        flex-wrap: wrap;
+        gap: 10px;">
+            <p style="  padding: 16px 28px;
+            border-radius: 8px;
+            background-color: #b9b9b963;">
+                <i class="fa-solid fa-coins" style="display: inline-block;
+                margin-left: -8px;  "></i>
+                <span style="        padding-left: 10px;
+                ">الراتب</span>
+            </p>
+            <p style="  padding: 16px 28px;
+            border-radius: 8px;
+            background-color: #b9b9b963;"><i class="fas fa-briefcase" style="display: inline-block;
+        margin-left: -8px;  "></i><span style="        padding-left: 10px;
+">منتهي الصلاحية او لا</span></p>
+            <p style="  padding: 16px 28px;
+            border-radius: 8px;
+            background-color: #b9b9b963;"><i class="fas fa-clock" style="display: inline-block;
+        margin-left: -8px;  "></i><span style="        padding-left: 10px;
+">كامل الوقت ولا جزئي</span></p>
+        </div>
+        <div class="job-button" style="    margin-top: 24px;
+        ">
+            <a href="View_job.html" class="button" style=" background-color: rgb(74, 74, 218);
+            padding: 20px 40px;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: var(--main-transition);">View Details</a>
+    <style>
+         .job-button:hover a{
+    background-color: #19c8fa;
+   }
+    </style>   
+    </div>
+    </div></div></div>
+<div class="footer">
+    <div class="container">
+        <i class="fa-solid fa-magnifying-glass-dollar logo">JOBWARE</i> 
+        <p>We Are Social</p>
+        <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-home"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright">&copy; 2023 <span>JOBWARE Team</span> All Right Reserved</p>
+    </div>
+   </div>
+ <!-- end footer  -->
+      <!-- start button  -->
+      <div class="up">
+        <a href="#header">up</a>
+     </div>
+<!-- end footer -->
+</body>
+</html>
